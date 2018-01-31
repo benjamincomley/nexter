@@ -33,6 +33,7 @@
     stroke: $color-grey-light-1;
     stroke-width: .2rem;
     transition: transform 0.5s;
+    backface-visibility: hidden;
 
     &:hover {
       transform: scale(1.2);
